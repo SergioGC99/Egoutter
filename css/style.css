@@ -1,0 +1,618 @@
+/* *{
+	font-family: quarca;
+}
+body{
+	background: #343434;
+	margin: 0px;
+}
+#header
+{
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 70px;
+    background: #343434;
+    color: white;
+    font-size: 20pt;
+    text-align: center;
+
+}
+#header p
+{
+    display: inline-block;
+    margin-top: 0px;
+    margin-right: 2px;
+
+}
+#logo 
+{
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    margin: 10px 0 0 0;
+}
+#logo img {
+    height: 100%;
+    width: 100%;
+}
+#center
+{
+    position: relative;
+    float: left;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+#menu
+{
+    position: relative;
+    float: left;
+    width: 11%;
+    height: 100%;
+    background: #343434;
+    color: white;
+    font-size: 20pt;
+    margin-left: -1px;
+    text-align: center;
+ 
+}
+#chart{
+	display: inline-block;
+	width:88%;
+	height:600px;
+	background:#343434;
+	border: 1px solid #555;
+	margin: 20px auto auto auto;
+} */
+/* #chart svg{
+	width: 100%;
+	height:100%;
+}
+
+.title{
+	
+	font-size: 18pt;
+	fill: #fff;
+	stroke: #fff;
+	stroke-width: 1px;
+	text-anchor: middle;
+}
+
+.axis{
+	stroke: #999;
+	stroke-width: 1px;	
+}
+
+.yaxis{
+	font-size:12pt;
+	fill:#999;
+	text-anchor: end;
+}
+.column{
+	fill:#CCC;
+	stroke:#999;
+	stroke-width: 1px;
+}
+.value{
+	font-size:18pt;
+	fill:#999;
+	text-anchor: middle;
+}
+
+.time{
+	font-size:12pt;
+	fill:#999;
+	text-anchor: middle;
+}
+#chart2{
+	display: inline-block;
+	width:88%;
+	height:600px;
+	background:#343434;
+	border: 1px solid #555;
+	margin: 20px auto auto auto;
+} */
+/* #chart2 svg{
+	width: 100%;
+	height:100%;
+} */
+/* #temperature-option
+{
+    position: relative;
+    float: left;
+    width: 100%;
+    border-bottom: 1px solid #fff;
+    cursor: pointer;
+    font-size: 16pt;
+}
+#moisture-option
+{
+    position: relative;
+    float: left;
+    width: 100%;
+    border-bottom: 1px solid #fff;
+    cursor: pointer;
+    font-size: 16pt;
+}
+#temperature-option p
+{
+    position: relative;
+    float: right;
+    width: 80%;
+    height: 40px;
+}
+#moisture-option p
+{
+    position: relative;
+    float: right;
+    width: 80%;
+    height: 40px;
+}
+#logoT
+{
+    position: relative;
+    float: left;
+    width: 16%;
+    margin: 0 0 0 2px;
+}
+#logoT img {
+    width: 100%;
+    margin-top: 0px;
+}
+#logoM
+{
+    position: relative;
+    float: left;
+    width: 16%;
+    margin: 0 0 0 2px;
+}
+#logoM img {
+    width: 100%;
+    margin-top: 60%;
+} */
+
+
+*{
+	font-family: quarca;
+}
+body{
+	background: #ffffff;
+	margin: 0px;
+}
+#header
+{
+    position: relative; float : left;
+    width: 100%;
+    height: 70px;
+    background: #00A65A;
+    color: rgb(255, 255, 255);
+    font-size: 20pt;
+    text-align: center;
+   /* box-shadow: 0px 10px 10px #555;*/
+}
+#header p
+{
+    display: inline-block;
+    margin-top: 0px;
+    margin-right: 2px;
+
+}
+#logo 
+{
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    margin: 10px 0 0 0;
+}
+#logo img {
+    height: 100%;
+    width: 100%;
+}
+#center
+{
+    position: relative;
+    float: left;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+#menu
+{
+    position: relative;
+    float: left;
+    width: 11%;
+    height: 100%;
+    background: #343434;
+    color: white;
+    font-size: 20pt;
+    margin-left: -1px;
+    text-align: center;
+    /*box-shadow: 0px 10px 10px #555;*/
+}
+#chart{
+    /* display: inline-block; */
+    float: left;
+    
+	width:50%;
+	height:400px;
+	background:#ffffff;
+	border: 3px solid #00A65A;
+	/*box-shadow: 0px 20px 20px #555;*/
+	margin: 10px auto auto 10px;
+}
+#chart svg{
+	width: 100%;
+	height:100%;
+}
+
+.title{
+	
+	font-size: 30pt;
+	fill: #00A65A;
+	stroke: #00A65A;
+	stroke-width: 1px;
+	text-anchor: middle;
+}
+
+.axis{
+	stroke: #000;
+	stroke-width: 1px;	
+}
+
+.yaxis{
+	font-size:12pt;
+	fill:#000;
+	text-anchor: end;
+}
+.column{
+	fill:#000;
+	stroke:#000;
+	stroke-width: 1px;
+}
+.value{
+	font-size:18pt;
+	fill:#000;
+	text-anchor: middle;
+}
+
+.time{
+	font-size:10pt;
+	fill:#000;
+	text-anchor: middle;
+}
+#chart2{
+    /* display: inline-block; */
+    float: left;
+    
+	width:45%;
+	height:400px;
+	background:#ffffff;
+    border: 3px solid #00A65A;
+	/*box-shadow: 0px 20px 20px #555;*/
+	margin: 10px auto auto 35px ;
+}
+#chart2 svg{
+	width: 100%;
+	height:100%;
+}
+
+#chart3{
+    /* display: inline-block; */
+    float: left;
+    
+	width:90%;
+	height:400px;
+	background:#ffffff;
+    border: 3px solid #00A65A;
+	/*box-shadow: 0px 20px 20px #555;*/
+	margin: 10px auto auto 35px ;
+}
+#chart3 svg{
+	width: 100%;
+	height:100%;
+}
+#temperature-option
+{
+    position: relative;
+    float: left;
+    width: 100%;
+    border-bottom: 1px solid #fff;
+    cursor: pointer;
+    font-size: 16pt;
+}
+#moisture-option
+{
+    position: relative;
+    float: left;
+    width: 100%;
+    border-bottom: 1px solid #fff;
+    cursor: pointer;
+    font-size: 16pt;
+}
+#temperature-option p
+{
+    position: relative;
+    float: right;
+    width: 80%;
+    height: 40px;
+}
+#moisture-option p
+{
+    position: relative;
+    float: right;
+    width: 80%;
+    height: 40px;
+}
+#logoT
+{
+    position: relative;
+    float: left;
+    width: 16%;
+    margin: 0 0 0 2px;
+}
+#logoT img {
+    width: 100%;
+    margin-top: 0px;
+}
+#logoM
+{
+    position: relative;
+    float: left;
+    width: 16%;
+    margin: 0 0 0 2px;
+}
+#logoM img {
+    width: 100%;
+    margin-top: 60%;
+}
+
+
+/******************SIDE BAR************************/
+.header {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 100%;
+    box-shadow: none;
+    background-color: #1d0261;
+    position: fixed;
+    height: 60px!important;
+    overflow: hidden;
+    z-index: 10;
+}
+.main {
+    margin: 0 auto;
+    display: block;
+    height: 100%;
+    margin-top: 60px;
+}
+.mainInner{
+    display: table;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+.mainInner div{
+    display:table-cell;
+    vertical-align: middle;
+    font-size: 3em;
+    font-weight: bold;
+    letter-spacing: 1.25px;
+}
+#sidebarMenu {
+    height: 100%;
+    position: fixed;
+    left: 0;
+    width: 250px;
+    margin-top: 60px;
+    transform: translateX(-250px);
+    transition: transform 250ms ease-in-out;
+    background: #c9cacf;
+}
+.sidebarMenuInner{
+    margin:0;
+    padding:0;
+    border-top: 1px solid rgba(255, 255, 255, 0.10);
+}
+.sidebarMenuInner li{
+    list-style: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 20px;
+    cursor: pointer;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.10);
+}
+.sidebarMenuInner li span{
+    display: block;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.50);
+}
+.sidebarMenuInner li a{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+}
+input[type="checkbox"]:checked ~ #sidebarMenu {
+    transform: translateX(0);
+}
+
+input[type=checkbox] {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    display: none;
+}
+.sidebarIconToggle {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    cursor: pointer;
+    position: absolute;
+    z-index: 99;
+    height: 100%;
+    width: 100%;
+    top: 22px;
+    left: 15px;
+    height: 22px;
+    width: 22px;
+}
+.spinner {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    background-color: #fff;
+}
+.horizontal {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    position: relative;
+    float: left;
+    margin-top: 3px;
+}
+.diagonal.part-1 {
+    position: relative;
+    transition: all 0.3s;
+    box-sizing: border-box;
+    float: left;
+}
+.diagonal.part-2 {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    position: relative;
+    float: left;
+    margin-top: 3px;
+}
+input[type=checkbox]:checked ~ .sidebarIconToggle > .horizontal {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    opacity: 0;
+}
+input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-1 {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    transform: rotate(135deg);
+    margin-top: 8px;
+}
+input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    transform: rotate(-135deg);
+    margin-top: -9px;
+}
+
+
+
+
+/*media queries */
+
+/*pc */
+@media only screen and (max-width:1280px){
+    
+}
+
+/*Tablet */
+@media only screen and (max-width:1160px){
+    #chart{
+        /* display: inline-block; */
+        float: left;
+        
+        width:97%;
+        height:800px;
+        background:#ffffff;
+        border: 3px solid #00A65A;
+        /*box-shadow: 0px 20px 20px #555;*/
+        margin: 10px 10px 10px 10px;
+    }
+
+    #chart2{
+        /* display: inline-block; */
+        float: left;
+        
+        width:97%;
+        height:800;
+        background:#ffffff;
+        border: 3px solid #00A65A;
+        /*box-shadow: 0px 20px 20px #555;*/
+        margin: 10px 10px 10px 10px;
+    }
+    .column{
+        fill:#000;
+        stroke:#000;
+        stroke-width: 8px;
+    }
+    .value{
+        font-size:25pt;
+        fill:#000;
+        text-anchor: middle;
+    }
+    
+    .time{
+        font-size:15pt;
+        fill:#000;
+        text-anchor: middle;
+    }
+    .yaxis{
+        font-size:20pt;
+        fill:#000;
+        text-anchor: end;
+    }
+    
+}
+
+/*Large smartphone */
+@media only screen and (max-width:800px){
+    #chart{
+        /* display: inline-block; */
+        float: left;
+        
+        width:97%;
+        height:1000px;
+        background:#ffffff;
+        border: 3px solid #00A65A;
+        /*box-shadow: 0px 20px 20px #555;*/
+        margin: 10px 10px 10px 10px;
+    }
+
+    #chart2{
+        /* display: inline-block; */
+        float: left;
+        
+        width:97%;
+        height:1000;
+        background:#ffffff;
+        border: 3px solid #00A65A;
+        /*box-shadow: 0px 20px 20px #555;*/
+        margin: 10px 10px 10px 10px;
+    }
+    .column{
+        fill:#000;
+        stroke:#000;
+        stroke-width: 8px;
+    }
+    .value{
+        font-size:25pt;
+        fill:#000;
+        text-anchor: middle;
+    }
+    
+    .time{
+        font-size:12pt;
+        fill:#000;
+        text-anchor: middle;
+    }
+    .yaxis{
+        font-size:20pt;
+        fill:#000;
+        text-anchor: end;
+    }
+}
+
+/*small smartphone */
+@media only screen and (max-width:640px){
+    
+}
+
+
